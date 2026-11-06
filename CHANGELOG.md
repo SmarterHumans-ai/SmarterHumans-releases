@@ -15,6 +15,19 @@ How to write it:
 
 ## Unreleased
 
+## 1.0 (23) — 2026-11-06
+
+### Improved
+
+- **Updates show up sooner** — the app checks a few seconds after it starts and again when you come
+  back to it after an hour, not only every 6 hours. (IDR-5323)
+- **Windows updates without an installer window** — after the download, choose Restart now or When I
+  close the app; SmarterHumans reopens on the new version by itself. (IDR-5323)
+
+### Fixed
+
+- **The Android update sheet no longer jumps while the update downloads** (IDR-5323)
+
 ## 1.0 (22) — 2026-11-06
 
 ### Added
