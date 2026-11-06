@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "channel": "test",
+  "version": "1.0",
+  "build": 24,
+  "revision": 0,
+  "published": "2026-11-06T12:00:00Z",
+  "releasePage": "https://github.com/SmarterHumans-ai/SmarterHumans-releases/releases/tag/1.0.24",
+  "changelog": "https://github.com/SmarterHumans-ai/SmarterHumans-releases/blob/main/CHANGELOG.md",
+  "requiredBelowBuild": 0,
+  "notes": [
+    {
+      "category": "improved",
+      "title": "The Windows installer and app are signed",
+      "detail": "Windows names SmarterHumans' publisher instead of warning about an unknown app.",
+      "ticket": "IDR-5323"
+    }
+  ],
+  "platforms": {
+    "windows-x64": {
+      "url": "https://github.com/SmarterHumans-ai/SmarterHumans-releases/releases/download/1.0.24/SmarterHumans-Setup-1.0.24-x64.exe",
+      "size": 202142264,
+      "sha256": "9bce18499730af1b80e70ac9af3e208d0904d9f9beafe8673998b7d882238fe1",
+      "minOs": "10.0.17763"
+    },
+    "android": {
+      "url": "https://github.com/SmarterHumans-ai/SmarterHumans-releases/releases/download/1.0.24/SmarterHumans-1.0.24.apk",
+      "size": 566962599,
+      "sha256": "cb0514f6ee6cd1ce6d5d36ca792f456340a074c59a4a3fe60b4d652c93246655",
+      "minOs": "30",
+      "packageId": "com.smarterhumans.cards.swiftcore.debug"
+    }
+  }
+}

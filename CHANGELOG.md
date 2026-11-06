@@ -15,6 +15,13 @@ How to write it:
 
 ## Unreleased
 
+## 1.0 (24) — 2026-11-06
+
+### Improved
+
+- **The Windows installer and app are signed** — Windows names SmarterHumans' publisher instead of
+  warning about an unknown app. (IDR-5323)
+
 ## 1.0 (23) — 2026-11-06
 
 ### Improved
