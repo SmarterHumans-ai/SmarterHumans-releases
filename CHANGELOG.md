@@ -15,6 +15,19 @@ How to write it:
 
 ## Unreleased
 
+## 1.0 (22) — 2026-11-06
+
+### Added
+
+- **Installed version in Settings → What's New on Mac, iPhone and iPad** — the same line Windows
+  and Android show. (IDR-5323)
+
+### Fixed
+
+- **Settings → What's New on Windows is readable in dark mode** — its text was drawn dark on the
+  dark pane. (IDR-5323)
+- **Update window buttons on Windows use the app's own button styles** (IDR-5323)
+
 ## 1.0 (21) — 2026-11-06
 
 ### Added
