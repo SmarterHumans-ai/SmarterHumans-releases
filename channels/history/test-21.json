@@ -95,7 +95,7 @@
       "size": 567227438,
       "sha256": "f01583cf6468fb119c6ad31aa14b21b30832757e91084bad93cbb1dfddc27ec3",
       "minOs": "30",
-      "packageId": "16"
+      "packageId": "com.smarterhumans.cards.swiftcore.debug"
     }
   }
 }
