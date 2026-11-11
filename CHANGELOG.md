@@ -15,54 +15,37 @@ How to write it:
 
 ## Unreleased
 
-## 1.0 (24) — 2026-11-06
-
-### Improved
-
-- **The Windows installer and app are signed** — Windows names SmarterHumans' publisher instead of
-  warning about an unknown app. (IDR-5323)
-
-## 1.0 (23) — 2026-11-06
-
-### Improved
-
-- **Updates show up sooner** — the app checks a few seconds after it starts and again when you come
-  back to it after an hour, not only every 6 hours. (IDR-5323)
-- **Windows updates without an installer window** — after the download, choose Restart now or When I
-  close the app; SmarterHumans reopens on the new version by itself. (IDR-5323)
-
-### Fixed
-
-- **The Android update sheet no longer jumps while the update downloads** (IDR-5323)
-
-## 1.0 (22) — 2026-11-06
-
-### Added
-
-- **Installed version in Settings → What's New on Mac, iPhone and iPad** — the same line Windows
-  and Android show. (IDR-5323)
-
-### Fixed
-
-- **Settings → What's New on Windows is readable in dark mode** — its text was drawn dark on the
-  dark pane. (IDR-5323)
-- **Update window buttons on Windows use the app's own button styles** (IDR-5323)
-
-## 1.0 (21) — 2026-11-06
+## 1.0 (21) — 2026-11-11
 
 ### Added
 
 - **Update notifications on Windows and Android** — an update button appears when a new build is
-  out; it shows what's new and installs the update in place. (IDR-5323)
+  out; it shows what's new and installs the update in place. On Windows you choose Restart now or
+  When I close the app, and SmarterHumans reopens on the new version by itself. (IDR-5323)
+- **Windows installs and updates through Velopack** — later updates download only what changed, and
+  the installer and app are signed, so Windows names SmarterHumans as the publisher. (IDR-5248)
+- **Redaction groups** — group redactions, and numbering now starts at 1 on every platform. (IDR-5339)
+- **Import and Sync settings in a new design** on every platform. (IDR-5338)
+- **Web import introduction at launch** — with "Don't show again". (IDR-5335)
+- **Get started guides for Notes and the Library** — short clips in 11 languages.
 - **Auto summary setting** — turn automatic summaries on or off in Settings → AI → General, and
   create a summary for any document with "Create summary". (IDR-5318)
 - **AI Settings in the AI Playground** — choose the language of generated flashcards, or let the
   app detect it. (IDR-5196)
+- **Installed version in Settings → What's New on Mac, iPhone and iPad** — the same line Windows
+  and Android show. (IDR-5323)
 
 ### Improved
 
 - **Runs on older devices** — macOS 15, iOS 18, Android 11 and Windows 10 version 1809 (x64) are
   now supported. (IDR-5246)
+- **Large libraries and typing in Notes are faster** (IDR-5230)
+- **Text is easier to read in light and dark mode** — placeholders, links, buttons and the selected
+  segment meet WCAG AA contrast.
+- **Video and podcast transcripts work without your own Supadata key** (IDR-5325)
+- **A note needs a title** (IDR-5334)
+- **Tag sorting is consistent** — "Created" reverses with the arrow, and each sort word means one thing.
+  (IDR-5326)
 - **Practice settings reworked** (IDR-5257)
 - **Self-contained AI flashcard questions** — generated questions no longer depend on the text
   they came from. (IDR-4935)
@@ -72,6 +55,12 @@ How to write it:
 
 ### Fixed
 
+- **macOS no longer asks for the login-keychain password**
+- **Dictation no longer types "[BLANK_AUDIO]"** — it follows your language, and falls back to
+  Whisper when Apple has no speech assets.
+- **Web-imported cards reach your other devices with source, highlights and tags**
+  (IDR-5329, IDR-5328)
+- **Web video cards get their transcript marker and Source seek** (IDR-5327)
 - **Summaries for imported videos** — a video is summarized once its transcript has loaded.
   (IDR-4956)
 - **Web pages imported from a link render correctly** (IDR-5295)
@@ -79,6 +68,9 @@ How to write it:
 - **Concepts from a video or podcast no longer titled "page 0"** (IDR-5314)
 - **No surprise flashcard generation** — returning to a video or podcast with the AI Playground
   open no longer starts generating by itself. (IDR-5315)
+- **The document is disabled while the AI Playground form is open** (IDR-5319)
+- **A restored card is no longer blanked by an empty editor** and **note links break words at
+  punctuation**
 
 ## 1.0 (20) — 2026-11-02
 
