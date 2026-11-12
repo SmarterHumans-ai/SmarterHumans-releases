@@ -2,197 +2,93 @@
   "schema": 1,
   "channel": "test",
   "version": "1.0",
-  "build": 21,
+  "build": 22,
   "revision": 0,
-  "published": "2026-11-11T12:00:00Z",
-  "releasePage": "https://github.com/SmarterHumans-ai/SmarterHumans-releases/releases/tag/1.0.21",
+  "published": "2026-11-12T12:00:00Z",
+  "releasePage": "https://github.com/SmarterHumans-ai/SmarterHumans-releases/releases/tag/1.0.22",
   "changelog": "https://github.com/SmarterHumans-ai/SmarterHumans-releases/blob/main/CHANGELOG.md",
   "requiredBelowBuild": 0,
   "notes": [
     {
       "category": "added",
-      "title": "Update notifications on Windows and Android",
-      "detail": "an update button appears when a new build is out; it shows what's new and installs the update in place. On Windows you choose Restart now or When I close the app, and SmarterHumans reopens on the new version by itself.",
-      "ticket": "IDR-5323"
+      "title": "Snips of note blocks on Android",
+      "detail": "snip a block in a note, see its badge, reopen it, and review the saved snips with redaction thumbnails in the flashcards panel.",
+      "ticket": "SMART-688"
     },
     {
       "category": "added",
-      "title": "Windows installs and updates through Velopack",
-      "detail": "later updates download only what changed, and the installer and app are signed, so Windows names SmarterHumans as the publisher.",
-      "ticket": "IDR-5248"
-    },
-    {
-      "category": "added",
-      "title": "Redaction groups",
-      "detail": "group redactions, and numbering now starts at 1 on every platform.",
-      "ticket": "IDR-5339"
-    },
-    {
-      "category": "added",
-      "title": "Import and Sync settings in a new design",
-      "detail": "on every platform.",
-      "ticket": "IDR-5338"
-    },
-    {
-      "category": "added",
-      "title": "Web import introduction at launch",
-      "detail": "with \"Don't show again\".",
-      "ticket": "IDR-5335"
-    },
-    {
-      "category": "added",
-      "title": "Get started guides for Notes and the Library",
-      "detail": "short clips in 11 languages."
-    },
-    {
-      "category": "added",
-      "title": "Auto summary setting",
-      "detail": "turn automatic summaries on or off in Settings → AI → General, and create a summary for any document with \"Create summary\".",
-      "ticket": "IDR-5318"
-    },
-    {
-      "category": "added",
-      "title": "AI Settings in the AI Playground",
-      "detail": "choose the language of generated flashcards, or let the app detect it.",
-      "ticket": "IDR-5196"
-    },
-    {
-      "category": "added",
-      "title": "Installed version in Settings → What's New on Mac, iPhone and iPad",
-      "detail": "the same line Windows and Android show.",
-      "ticket": "IDR-5323"
+      "title": "Vimeo and video icons in a card's source",
+      "detail": "cards and notes from Vimeo or imported videos show where they came from.",
+      "ticket": "SMART-683"
     },
     {
       "category": "improved",
-      "title": "Runs on older devices",
-      "detail": "macOS 15, iOS 18, Android 11 and Windows 10 version 1809 (x64) are now supported.",
-      "ticket": "IDR-5246"
+      "title": "Redaction practice matches the web",
+      "detail": "the marks look and behave the same on every platform.",
+      "ticket": "SMART-698"
     },
     {
       "category": "improved",
-      "title": "Large libraries and typing in Notes are faster",
-      "ticket": "IDR-5230"
+      "title": "Toasts stay clear of the top bars",
+      "detail": "in the Library, Notes, Flashcards and Practice on Mac, iPad and iPhone."
     },
     {
       "category": "improved",
-      "title": "Text is easier to read in light and dark mode",
-      "detail": "placeholders, links, buttons and the selected segment meet WCAG AA contrast."
-    },
-    {
-      "category": "improved",
-      "title": "Video and podcast transcripts work without your own Supadata key",
-      "ticket": "IDR-5325"
-    },
-    {
-      "category": "improved",
-      "title": "A note needs a title",
-      "ticket": "IDR-5334"
-    },
-    {
-      "category": "improved",
-      "title": "Tag sorting is consistent",
-      "detail": "\"Created\" reverses with the arrow, and each sort word means one thing.",
-      "ticket": "IDR-5326"
-    },
-    {
-      "category": "improved",
-      "title": "Practice settings reworked",
-      "ticket": "IDR-5257"
-    },
-    {
-      "category": "improved",
-      "title": "Self-contained AI flashcard questions",
-      "detail": "generated questions no longer depend on the text they came from.",
-      "ticket": "IDR-4935"
-    },
-    {
-      "category": "improved",
-      "title": "Notes and concepts from a video stay separate",
-      "detail": "they are no longer collected into one master note.",
-      "ticket": "IDR-5312"
-    },
-    {
-      "category": "improved",
-      "title": "Older built-in PDF reader removed",
-      "ticket": "IDR-5260"
+      "title": "Clearer onboarding hints",
+      "detail": "iPad Notes says Tap, and Arabic hints name the Return key in Arabic."
     },
     {
       "category": "fixed",
-      "title": "macOS no longer asks for the login-keychain password"
+      "title": "Import after Delete all data",
+      "detail": "importing brings your web account back again.",
+      "ticket": "SMART-705"
     },
     {
       "category": "fixed",
-      "title": "Dictation no longer types \"[BLANK_AUDIO]\"",
-      "detail": "it follows your language, and falls back to Whisper when Apple has no speech assets."
+      "title": "Import on iPad",
+      "detail": "the intro's Import button now opens Settings → Import.",
+      "ticket": "SMART-706"
     },
     {
       "category": "fixed",
-      "title": "Web-imported cards reach your other devices with source, highlights and tags",
-      "detail": "(IDR-5329, IDR-5328)"
+      "title": "Closing the editor in Practice",
+      "detail": "keeps a revealed redaction card on the rating screen.",
+      "ticket": "SMART-708"
     },
     {
       "category": "fixed",
-      "title": "Web video cards get their transcript marker and Source seek",
-      "ticket": "IDR-5327"
-    },
-    {
-      "category": "fixed",
-      "title": "Summaries for imported videos",
-      "detail": "a video is summarized once its transcript has loaded.",
-      "ticket": "IDR-4956"
-    },
-    {
-      "category": "fixed",
-      "title": "Web pages imported from a link render correctly",
-      "ticket": "IDR-5295"
-    },
-    {
-      "category": "fixed",
-      "title": "Snip flashcards use your own OpenRouter key when one is set",
-      "ticket": "IDR-5263"
-    },
-    {
-      "category": "fixed",
-      "title": "Concepts from a video or podcast no longer titled \"page 0\"",
-      "ticket": "IDR-5314"
-    },
-    {
-      "category": "fixed",
-      "title": "No surprise flashcard generation",
-      "detail": "returning to a video or podcast with the AI Playground open no longer starts generating by itself.",
-      "ticket": "IDR-5315"
-    },
-    {
-      "category": "fixed",
-      "title": "The document is disabled while the AI Playground form is open",
-      "ticket": "IDR-5319"
-    },
-    {
-      "category": "fixed",
-      "title": "A restored card is no longer blanked by an empty editor",
-      "detail": "and **note links break words at punctuation**"
+      "title": "Mac TestFlight build",
+      "detail": "no longer asks for a system exception that Apple rejected.",
+      "ticket": "SMART-707"
     }
   ],
   "platforms": {
     "windows-x64": {
-      "url": "https://github.com/SmarterHumans-ai/SmarterHumans-releases/releases/download/1.0.21/SmarterHumans-Setup-1.0.21-x64.exe",
-      "size": 301351768,
-      "sha256": "116835e9b36cde45a8b12b984e08fa1363c6a43932c9b989e244746e65494b4c",
+      "url": "https://github.com/SmarterHumans-ai/SmarterHumans-releases/releases/download/1.0.22/SmarterHumans-Setup-1.0.22-x64.exe",
+      "size": 302817864,
+      "sha256": "db9b9558cb74938b25448cac58b742c4388a31bb7e97565fc0b109291ce47e85",
       "minOs": "10.0.17763"
     },
     "windows-x64-velopack": {
-      "url": "https://github.com/SmarterHumans-ai/SmarterHumans-releases/releases/download/1.0.21/SmarterHumansApp-1.21.0-full.nupkg",
-      "size": 299324082,
-      "sha256": "6efcfcf65a6f7410e98741822473acaf1f6c766851dc29edb0aceeb30a23adc7",
-      "sha1": "265c70634ba0b091d666e7bc39d1f61feb9afb17",
+      "url": "https://github.com/SmarterHumans-ai/SmarterHumans-releases/releases/download/1.0.22/SmarterHumansApp-1.22.0-full.nupkg",
+      "size": 300782622,
+      "sha256": "e83018420367f6221f7e7fe645504b6fdf6861c3cbeed82d51f2f8bd4ef5c0e5",
+      "sha1": "1b95a94e184189ae721788475acb9579e5936f90",
       "minOs": "10.0.17763",
       "packageId": "SmarterHumansApp",
-      "packageVersion": "1.21.0"
+      "packageVersion": "1.22.0",
+      "delta": {
+        "url": "https://github.com/SmarterHumans-ai/SmarterHumans-releases/releases/download/1.0.22/SmarterHumansApp-1.22.0-delta.nupkg",
+        "size": 14982207,
+        "sha256": "b7cf456777666f6b3eab8432dcbc5daa5e27ea7a60b7ec8178fdc244a67712f6",
+        "sha1": "d6239336d23565d3b876ff0b92d6214adb417f12",
+        "baseVersion": "1.21.0"
+      }
     },
     "android": {
-      "url": "https://github.com/SmarterHumans-ai/SmarterHumans-releases/releases/download/1.0.21/SmarterHumans-1.0.21.apk",
-      "size": 570438717,
-      "sha256": "ae8d9c0a344c330b76e51c0780aa0ba67efaf05d010a3306e0f16c3103804117",
+      "url": "https://github.com/SmarterHumans-ai/SmarterHumans-releases/releases/download/1.0.22/SmarterHumans-1.0.22.apk",
+      "size": 579116977,
+      "sha256": "23d1dd063b3221f7f5ae9a5f978b868299bea9ac1bdd68863b33465c5366139d",
       "minOs": "30",
       "packageId": "com.smarterhumans.cards.swiftcore.debug"
     }

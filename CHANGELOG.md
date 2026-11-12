@@ -15,6 +15,30 @@ How to write it:
 
 ## Unreleased
 
+## 1.0 (22) — 2026-11-12
+
+### Added
+
+- **Snips of note blocks on Android** — snip a block in a note, see its badge, reopen it, and review
+  the saved snips with redaction thumbnails in the flashcards panel. (SMART-688)
+- **Vimeo and video icons in a card's source** — cards and notes from Vimeo or imported videos show
+  where they came from. (SMART-683)
+
+### Improved
+
+- **Redaction practice matches the web** — the marks look and behave the same on every platform.
+  (SMART-698)
+- **Toasts stay clear of the top bars** in the Library, Notes, Flashcards and Practice on Mac, iPad
+  and iPhone.
+- **Clearer onboarding hints** — iPad Notes says Tap, and Arabic hints name the Return key in Arabic.
+
+### Fixed
+
+- **Import after Delete all data** — importing brings your web account back again. (SMART-705)
+- **Import on iPad** — the intro's Import button now opens Settings → Import. (SMART-706)
+- **Closing the editor in Practice** keeps a revealed redaction card on the rating screen. (SMART-708)
+- **Mac TestFlight build** no longer asks for a system exception that Apple rejected. (SMART-707)
+
 ## 1.0 (21) — 2026-11-11
 
 ### Added

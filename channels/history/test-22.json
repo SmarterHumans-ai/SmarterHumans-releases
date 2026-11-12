@@ -4,40 +4,91 @@
   "version": "1.0",
   "build": 22,
   "revision": 0,
-  "published": "2026-11-06T12:00:00Z",
+  "published": "2026-11-12T12:00:00Z",
   "releasePage": "https://github.com/SmarterHumans-ai/SmarterHumans-releases/releases/tag/1.0.22",
   "changelog": "https://github.com/SmarterHumans-ai/SmarterHumans-releases/blob/main/CHANGELOG.md",
   "requiredBelowBuild": 0,
   "notes": [
     {
       "category": "added",
-      "title": "Installed version in Settings → What's New on Mac, iPhone and iPad",
-      "detail": "the same line Windows and Android show.",
-      "ticket": "IDR-5323"
+      "title": "Snips of note blocks on Android",
+      "detail": "snip a block in a note, see its badge, reopen it, and review the saved snips with redaction thumbnails in the flashcards panel.",
+      "ticket": "SMART-688"
+    },
+    {
+      "category": "added",
+      "title": "Vimeo and video icons in a card's source",
+      "detail": "cards and notes from Vimeo or imported videos show where they came from.",
+      "ticket": "SMART-683"
+    },
+    {
+      "category": "improved",
+      "title": "Redaction practice matches the web",
+      "detail": "the marks look and behave the same on every platform.",
+      "ticket": "SMART-698"
+    },
+    {
+      "category": "improved",
+      "title": "Toasts stay clear of the top bars",
+      "detail": "in the Library, Notes, Flashcards and Practice on Mac, iPad and iPhone."
+    },
+    {
+      "category": "improved",
+      "title": "Clearer onboarding hints",
+      "detail": "iPad Notes says Tap, and Arabic hints name the Return key in Arabic."
     },
     {
       "category": "fixed",
-      "title": "Settings → What's New on Windows is readable in dark mode",
-      "detail": "its text was drawn dark on the dark pane.",
-      "ticket": "IDR-5323"
+      "title": "Import after Delete all data",
+      "detail": "importing brings your web account back again.",
+      "ticket": "SMART-705"
     },
     {
       "category": "fixed",
-      "title": "Update window buttons on Windows use the app's own button styles",
-      "ticket": "IDR-5323"
+      "title": "Import on iPad",
+      "detail": "the intro's Import button now opens Settings → Import.",
+      "ticket": "SMART-706"
+    },
+    {
+      "category": "fixed",
+      "title": "Closing the editor in Practice",
+      "detail": "keeps a revealed redaction card on the rating screen.",
+      "ticket": "SMART-708"
+    },
+    {
+      "category": "fixed",
+      "title": "Mac TestFlight build",
+      "detail": "no longer asks for a system exception that Apple rejected.",
+      "ticket": "SMART-707"
     }
   ],
   "platforms": {
     "windows-x64": {
       "url": "https://github.com/SmarterHumans-ai/SmarterHumans-releases/releases/download/1.0.22/SmarterHumans-Setup-1.0.22-x64.exe",
-      "size": 202088708,
-      "sha256": "a594da3f4d8c00e9872a660b3a17beb2317de67ce3009705de5239085fe1e54c",
+      "size": 302817864,
+      "sha256": "db9b9558cb74938b25448cac58b742c4388a31bb7e97565fc0b109291ce47e85",
       "minOs": "10.0.17763"
+    },
+    "windows-x64-velopack": {
+      "url": "https://github.com/SmarterHumans-ai/SmarterHumans-releases/releases/download/1.0.22/SmarterHumansApp-1.22.0-full.nupkg",
+      "size": 300782622,
+      "sha256": "e83018420367f6221f7e7fe645504b6fdf6861c3cbeed82d51f2f8bd4ef5c0e5",
+      "sha1": "1b95a94e184189ae721788475acb9579e5936f90",
+      "minOs": "10.0.17763",
+      "packageId": "SmarterHumansApp",
+      "packageVersion": "1.22.0",
+      "delta": {
+        "url": "https://github.com/SmarterHumans-ai/SmarterHumans-releases/releases/download/1.0.22/SmarterHumansApp-1.22.0-delta.nupkg",
+        "size": 14982207,
+        "sha256": "b7cf456777666f6b3eab8432dcbc5daa5e27ea7a60b7ec8178fdc244a67712f6",
+        "sha1": "d6239336d23565d3b876ff0b92d6214adb417f12",
+        "baseVersion": "1.21.0"
+      }
     },
     "android": {
       "url": "https://github.com/SmarterHumans-ai/SmarterHumans-releases/releases/download/1.0.22/SmarterHumans-1.0.22.apk",
-      "size": 566897063,
-      "sha256": "727c9b8962e54d36f5c3e4647872671a3d32d464569ef9a263c75acb5b7bdff7",
+      "size": 579116977,
+      "sha256": "23d1dd063b3221f7f5ae9a5f978b868299bea9ac1bdd68863b33465c5366139d",
       "minOs": "30",
       "packageId": "com.smarterhumans.cards.swiftcore.debug"
     }
