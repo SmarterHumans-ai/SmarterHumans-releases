@@ -2,93 +2,115 @@
   "schema": 1,
   "channel": "test",
   "version": "1.0",
-  "build": 22,
+  "build": 23,
   "revision": 0,
-  "published": "2026-11-12T12:00:00Z",
-  "releasePage": "https://github.com/SmarterHumans-ai/SmarterHumans-releases/releases/tag/1.0.22",
+  "published": "2026-11-18T12:00:00Z",
+  "releasePage": "https://github.com/SmarterHumans-ai/SmarterHumans-releases/releases/tag/1.0.23",
   "changelog": "https://github.com/SmarterHumans-ai/SmarterHumans-releases/blob/main/CHANGELOG.md",
   "requiredBelowBuild": 0,
   "notes": [
     {
       "category": "added",
-      "title": "Snips of note blocks on Android",
-      "detail": "snip a block in a note, see its badge, reopen it, and review the saved snips with redaction thumbnails in the flashcards panel.",
-      "ticket": "SMART-688"
+      "title": "Get started for Practice, the Library and Flashcards",
+      "detail": "checklists with short clips on Mac, iPhone and iPad."
     },
     {
       "category": "added",
-      "title": "Vimeo and video icons in a card's source",
-      "detail": "cards and notes from Vimeo or imported videos show where they came from.",
-      "ticket": "SMART-683"
+      "title": "Get started on Windows and Android",
+      "detail": "checklists for Notes, the Library, Flashcards and Practice, with on-screen hints."
+    },
+    {
+      "category": "added",
+      "title": "Local Network status in Settings → Sync"
     },
     {
       "category": "improved",
-      "title": "Redaction practice matches the web",
-      "detail": "the marks look and behave the same on every platform.",
-      "ticket": "SMART-698"
+      "title": "Vimeo videos open in their own player"
     },
     {
       "category": "improved",
-      "title": "Toasts stay clear of the top bars",
-      "detail": "in the Library, Notes, Flashcards and Practice on Mac, iPad and iPhone."
+      "title": "Library search finds parts of words and title matches"
     },
     {
       "category": "improved",
-      "title": "Clearer onboarding hints",
-      "detail": "iPad Notes says Tap, and Arabic hints name the Return key in Arabic."
+      "title": "Import says why a file failed",
+      "detail": "a refused file is no longer retried."
+    },
+    {
+      "category": "improved",
+      "title": "\"Available to import\" counts what the first import brings"
+    },
+    {
+      "category": "improved",
+      "title": "New update badge icon and colour"
+    },
+    {
+      "category": "improved",
+      "title": "Brand colours are back to the team's palette"
     },
     {
       "category": "fixed",
-      "title": "Import after Delete all data",
-      "detail": "importing brings your web account back again.",
-      "ticket": "SMART-705"
+      "title": "Opening a document no longer crashes some iPhones",
+      "detail": "the colour picker stays on screen too."
     },
     {
       "category": "fixed",
-      "title": "Import on iPad",
-      "detail": "the intro's Import button now opens Settings → Import.",
-      "ticket": "SMART-706"
+      "title": "The Mac no longer freezes",
+      "detail": "on a checkbox click or closing a card, and Get started no longer keeps it busy."
     },
     {
       "category": "fixed",
-      "title": "Closing the editor in Practice",
-      "detail": "keeps a revealed redaction card on the rating screen.",
-      "ticket": "SMART-708"
+      "title": "Web import brings your whole streak",
+      "detail": "rest days and rescue cards included."
     },
     {
       "category": "fixed",
-      "title": "Mac TestFlight build",
-      "detail": "no longer asks for a system exception that Apple rejected.",
-      "ticket": "SMART-707"
+      "title": "Web items without a file stay in the Library"
+    },
+    {
+      "category": "fixed",
+      "title": "Source on a web redaction opens at its area"
+    },
+    {
+      "category": "fixed",
+      "title": "Web redactions made from note text show their picture"
+    },
+    {
+      "category": "fixed",
+      "title": "Leaving practice on iOS goes where you tapped"
+    },
+    {
+      "category": "fixed",
+      "title": "PDF interaction fixes"
     }
   ],
   "platforms": {
     "windows-x64": {
-      "url": "https://github.com/SmarterHumans-ai/SmarterHumans-releases/releases/download/1.0.22/SmarterHumans-Setup-1.0.22-x64.exe",
-      "size": 302817864,
-      "sha256": "db9b9558cb74938b25448cac58b742c4388a31bb7e97565fc0b109291ce47e85",
+      "url": "https://github.com/SmarterHumans-ai/SmarterHumans-releases/releases/download/1.0.23/SmarterHumans-Setup-1.0.23-x64.exe",
+      "size": 303937840,
+      "sha256": "1b8a5522f0cdd2694a7e28914bac53b89feff7b09d9ec6f835ec7c4f6bfcc2f1",
       "minOs": "10.0.17763"
     },
     "windows-x64-velopack": {
-      "url": "https://github.com/SmarterHumans-ai/SmarterHumans-releases/releases/download/1.0.22/SmarterHumansApp-1.22.0-full.nupkg",
-      "size": 300782622,
-      "sha256": "e83018420367f6221f7e7fe645504b6fdf6861c3cbeed82d51f2f8bd4ef5c0e5",
-      "sha1": "1b95a94e184189ae721788475acb9579e5936f90",
+      "url": "https://github.com/SmarterHumans-ai/SmarterHumans-releases/releases/download/1.0.23/SmarterHumansApp-1.23.0-full.nupkg",
+      "size": 301948850,
+      "sha256": "682da4a69ce7499e72bd28c2f6cb64b35fb3f6c7a22b92db4415b7e0a61aff8d",
+      "sha1": "36332d60e58f07fc4098bec3d4596bdb82135971",
       "minOs": "10.0.17763",
       "packageId": "SmarterHumansApp",
-      "packageVersion": "1.22.0",
+      "packageVersion": "1.23.0",
       "delta": {
-        "url": "https://github.com/SmarterHumans-ai/SmarterHumans-releases/releases/download/1.0.22/SmarterHumansApp-1.22.0-delta.nupkg",
-        "size": 14982207,
-        "sha256": "b7cf456777666f6b3eab8432dcbc5daa5e27ea7a60b7ec8178fdc244a67712f6",
-        "sha1": "d6239336d23565d3b876ff0b92d6214adb417f12",
-        "baseVersion": "1.21.0"
+        "url": "https://github.com/SmarterHumans-ai/SmarterHumans-releases/releases/download/1.0.23/SmarterHumansApp-1.23.0-delta.nupkg",
+        "size": 21323459,
+        "sha256": "30b420d7ce070cfa9409a979cb881a60a22fe5fc52d757a65c6ab7fd47b6c7f9",
+        "sha1": "c860c1e1e1307e230e99433e7190b4b8c42736a0",
+        "baseVersion": "1.22.0"
       }
     },
     "android": {
-      "url": "https://github.com/SmarterHumans-ai/SmarterHumans-releases/releases/download/1.0.22/SmarterHumans-1.0.22.apk",
-      "size": 579116977,
-      "sha256": "23d1dd063b3221f7f5ae9a5f978b868299bea9ac1bdd68863b33465c5366139d",
+      "url": "https://github.com/SmarterHumans-ai/SmarterHumans-releases/releases/download/1.0.23/SmarterHumans-1.0.23.apk",
+      "size": 592662510,
+      "sha256": "98c831c279e0d00da6e7cd33be7526cc083028f95ba21d7197e6412dd380d667",
       "minOs": "30",
       "packageId": "com.smarterhumans.cards.swiftcore.debug"
     }

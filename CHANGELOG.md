@@ -15,6 +15,37 @@ How to write it:
 
 ## Unreleased
 
+## 1.0 (23) — 2026-11-18
+
+### Added
+
+- **Get started for Practice, the Library and Flashcards** — checklists with short clips on Mac,
+  iPhone and iPad.
+- **Get started on Windows and Android** — checklists for Notes, the Library, Flashcards and
+  Practice, with on-screen hints.
+- **Local Network status in Settings → Sync**
+
+### Improved
+
+- **Vimeo videos open in their own player**
+- **Library search finds parts of words and title matches**
+- **Import says why a file failed** — a refused file is no longer retried.
+- **"Available to import" counts what the first import brings**
+- **New update badge icon and colour**
+- **Brand colours are back to the team's palette**
+
+### Fixed
+
+- **Opening a document no longer crashes some iPhones** — the colour picker stays on screen too.
+- **The Mac no longer freezes** on a checkbox click or closing a card, and Get started no longer
+  keeps it busy.
+- **Web import brings your whole streak** — rest days and rescue cards included.
+- **Web items without a file stay in the Library**
+- **Source on a web redaction opens at its area**
+- **Web redactions made from note text show their picture**
+- **Leaving practice on iOS goes where you tapped**
+- **PDF interaction fixes**
+
 ## 1.0 (22) — 2026-11-12
 
 ### Added

@@ -4,40 +4,113 @@
   "version": "1.0",
   "build": 23,
   "revision": 0,
-  "published": "2026-11-06T12:00:00Z",
+  "published": "2026-11-18T12:00:00Z",
   "releasePage": "https://github.com/SmarterHumans-ai/SmarterHumans-releases/releases/tag/1.0.23",
   "changelog": "https://github.com/SmarterHumans-ai/SmarterHumans-releases/blob/main/CHANGELOG.md",
   "requiredBelowBuild": 0,
   "notes": [
     {
-      "category": "improved",
-      "title": "Updates show up sooner",
-      "detail": "the app checks a few seconds after it starts and again when you come back to it after an hour, not only every 6 hours.",
-      "ticket": "IDR-5323"
+      "category": "added",
+      "title": "Get started for Practice, the Library and Flashcards",
+      "detail": "checklists with short clips on Mac, iPhone and iPad."
+    },
+    {
+      "category": "added",
+      "title": "Get started on Windows and Android",
+      "detail": "checklists for Notes, the Library, Flashcards and Practice, with on-screen hints."
+    },
+    {
+      "category": "added",
+      "title": "Local Network status in Settings → Sync"
     },
     {
       "category": "improved",
-      "title": "Windows updates without an installer window",
-      "detail": "after the download, choose Restart now or When I close the app; SmarterHumans reopens on the new version by itself.",
-      "ticket": "IDR-5323"
+      "title": "Vimeo videos open in their own player"
+    },
+    {
+      "category": "improved",
+      "title": "Library search finds parts of words and title matches"
+    },
+    {
+      "category": "improved",
+      "title": "Import says why a file failed",
+      "detail": "a refused file is no longer retried."
+    },
+    {
+      "category": "improved",
+      "title": "\"Available to import\" counts what the first import brings"
+    },
+    {
+      "category": "improved",
+      "title": "New update badge icon and colour"
+    },
+    {
+      "category": "improved",
+      "title": "Brand colours are back to the team's palette"
     },
     {
       "category": "fixed",
-      "title": "The Android update sheet no longer jumps while the update downloads",
-      "ticket": "IDR-5323"
+      "title": "Opening a document no longer crashes some iPhones",
+      "detail": "the colour picker stays on screen too."
+    },
+    {
+      "category": "fixed",
+      "title": "The Mac no longer freezes",
+      "detail": "on a checkbox click or closing a card, and Get started no longer keeps it busy."
+    },
+    {
+      "category": "fixed",
+      "title": "Web import brings your whole streak",
+      "detail": "rest days and rescue cards included."
+    },
+    {
+      "category": "fixed",
+      "title": "Web items without a file stay in the Library"
+    },
+    {
+      "category": "fixed",
+      "title": "Source on a web redaction opens at its area"
+    },
+    {
+      "category": "fixed",
+      "title": "Web redactions made from note text show their picture"
+    },
+    {
+      "category": "fixed",
+      "title": "Leaving practice on iOS goes where you tapped"
+    },
+    {
+      "category": "fixed",
+      "title": "PDF interaction fixes"
     }
   ],
   "platforms": {
     "windows-x64": {
       "url": "https://github.com/SmarterHumans-ai/SmarterHumans-releases/releases/download/1.0.23/SmarterHumans-Setup-1.0.23-x64.exe",
-      "size": 202083309,
-      "sha256": "e3200cf1e45dd74704204d10cb19c9117ef7b4711033349fdfed497bfc9a9120",
+      "size": 303937840,
+      "sha256": "1b8a5522f0cdd2694a7e28914bac53b89feff7b09d9ec6f835ec7c4f6bfcc2f1",
       "minOs": "10.0.17763"
+    },
+    "windows-x64-velopack": {
+      "url": "https://github.com/SmarterHumans-ai/SmarterHumans-releases/releases/download/1.0.23/SmarterHumansApp-1.23.0-full.nupkg",
+      "size": 301948850,
+      "sha256": "682da4a69ce7499e72bd28c2f6cb64b35fb3f6c7a22b92db4415b7e0a61aff8d",
+      "sha1": "36332d60e58f07fc4098bec3d4596bdb82135971",
+      "minOs": "10.0.17763",
+      "packageId": "SmarterHumansApp",
+      "packageVersion": "1.23.0",
+      "delta": {
+        "url": "https://github.com/SmarterHumans-ai/SmarterHumans-releases/releases/download/1.0.23/SmarterHumansApp-1.23.0-delta.nupkg",
+        "size": 21323459,
+        "sha256": "30b420d7ce070cfa9409a979cb881a60a22fe5fc52d757a65c6ab7fd47b6c7f9",
+        "sha1": "c860c1e1e1307e230e99433e7190b4b8c42736a0",
+        "baseVersion": "1.22.0"
+      }
     },
     "android": {
       "url": "https://github.com/SmarterHumans-ai/SmarterHumans-releases/releases/download/1.0.23/SmarterHumans-1.0.23.apk",
-      "size": 566962599,
-      "sha256": "5789638ad63cb5ebe2fc51be470138edb7cbb4d06edb979dfdfdf2b1b2d341e7",
+      "size": 592662510,
+      "sha256": "98c831c279e0d00da6e7cd33be7526cc083028f95ba21d7197e6412dd380d667",
       "minOs": "30",
       "packageId": "com.smarterhumans.cards.swiftcore.debug"
     }
