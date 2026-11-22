@@ -15,6 +15,12 @@ How to write it:
 
 ## Unreleased
 
+## 1.0 (24) — 2026-11-22
+
+### Improved
+
+- **Stability improvements**
+
 ## 1.0 (23) — 2026-11-18
 
 ### Added
