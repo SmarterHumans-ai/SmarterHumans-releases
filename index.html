@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; script-src 'unsafe-inline'; base-uri 'none'">
+<meta name="description" content="What changed in each SmarterHumans build, for macOS, iOS, Windows and Android.">
+<title>SmarterHumans — What's new</title>
+<style>
+:root { color-scheme: light dark; --text: #11121D; --muted: #5A5759; --surface: #FFFFFF; --panel: #F2F2F2;
+  --border: #DDDDDD; --brand: #76267E; --link: #76267E; }
+@media (prefers-color-scheme: dark) { :root { --text: #BAB7DB; --muted: #C4C4C4; --surface: #1C1F3D;
+  --panel: #13152C; --border: #333A69; --link: #38B2E4; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--surface); color: var(--text); line-height: 1.5;
+  font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 44rem; margin: 0 auto; padding: 2rem 1.25rem 4rem; }
+h1 { font-size: 1.75rem; margin: 0 0 .25rem; }
+.lead { color: var(--muted); margin: 0 0 1.5rem; }
+nav { display: flex; flex-wrap: wrap; gap: .5rem; margin-bottom: 2rem; }
+.filter { font: inherit; padding: .4rem .9rem; border-radius: 999px; border: 1px solid var(--border);
+  background: var(--panel); color: var(--text); cursor: pointer; min-height: 2.75rem; }
+.filter[aria-pressed="true"] { background: var(--brand); border-color: var(--brand); color: #FFFFFF; }
+.filter:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
+.build { border-top: 1px solid var(--border); padding: 1.5rem 0; }
+.build h2 { font-size: 1.25rem; margin: 0; }
+.build time { color: var(--muted); font-size: .9rem; }
+.build h3 { font-size: .85rem; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); margin: 1.25rem 0 .5rem; }
+ul { list-style: none; padding: 0; margin: 0; }
+li { padding: .35rem 0; }
+li strong { font-weight: 600; }
+.chip { display: inline-block; margin-left: .4rem; padding: 0 .55rem; border-radius: 999px; background: var(--brand);
+  color: #FFFFFF; font-size: .75rem; line-height: 1.4rem; vertical-align: middle; }
+code { font: .9em ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; background: var(--panel); padding: .1em .35em; border-radius: 4px; }
+a { color: var(--link); }
+.empty { color: var(--muted); }
+[hidden] { display: none !important; }
+</style>
+</head>
+<body>
+<main>
+<h1>What's new in SmarterHumans</h1>
+<p class="lead">What changed in each build. Pick your platform to see only what applies to it.</p>
+<nav aria-label="Platform"><button type="button" class="filter" data-platform="all" aria-pressed="false">All</button><button type="button" class="filter" data-platform="macos" aria-pressed="false">macOS</button><button type="button" class="filter" data-platform="ios" aria-pressed="false">iOS</button><button type="button" class="filter" data-platform="windows" aria-pressed="false">Windows</button><button type="button" class="filter" data-platform="android" aria-pressed="false">Android</button></nav>
+<section class="build" id="build-24">
+<h2>1.0 (24)</h2>
+<time datetime="2026-11-22">22 November 2026</time>
+<div class="category"><h3>Improved</h3><ul><li data-platforms="all"><strong>Stability improvements</strong></li></ul></div>
+<p class="empty" hidden>Bug fixes and improvements</p>
+</section>
+<section class="build" id="build-23">
+<h2>1.0 (23)</h2>
+<time datetime="2026-11-18">18 November 2026</time>
+<div class="category"><h3>Added</h3><ul><li data-platforms="macos ios"><strong>Get started for Practice, the Library and Flashcards</strong> — checklists with short clips on Mac, iPhone and iPad.<span class="chip">macOS</span><span class="chip">iOS</span></li><li data-platforms="windows android"><strong>Get started on Windows and Android</strong> — checklists for Notes, the Library, Flashcards and Practice, with on-screen hints.<span class="chip">Windows</span><span class="chip">Android</span></li><li data-platforms="all"><strong>Local Network status in Settings → Sync</strong></li></ul></div>
+<div class="category"><h3>Improved</h3><ul><li data-platforms="all"><strong>Vimeo videos open in their own player</strong></li><li data-platforms="all"><strong>Library search finds parts of words and title matches</strong></li><li data-platforms="all"><strong>Import says why a file failed</strong> — a refused file is no longer retried.</li><li data-platforms="all"><strong>"Available to import" counts what the first import brings</strong></li><li data-platforms="all"><strong>New update badge icon and colour</strong></li><li data-platforms="all"><strong>Brand colours are back to the team's palette</strong></li></ul></div>
+<div class="category"><h3>Fixed</h3><ul><li data-platforms="ios"><strong>Opening a document no longer crashes some iPhones</strong> — the colour picker stays on screen too.<span class="chip">iOS</span></li><li data-platforms="macos"><strong>The Mac no longer freezes</strong> — on a checkbox click or closing a card, and Get started no longer keeps it busy.<span class="chip">macOS</span></li><li data-platforms="all"><strong>Web import brings your whole streak</strong> — rest days and rescue cards included.</li><li data-platforms="all"><strong>Web items without a file stay in the Library</strong></li><li data-platforms="all"><strong>Source on a web redaction opens at its area</strong></li><li data-platforms="all"><strong>Web redactions made from note text show their picture</strong></li><li data-platforms="ios"><strong>Leaving practice on iOS goes where you tapped</strong><span class="chip">iOS</span></li><li data-platforms="all"><strong>PDF interaction fixes</strong></li></ul></div>
+<p class="empty" hidden>Bug fixes and improvements</p>
+</section>
+<section class="build" id="build-22">
+<h2>1.0 (22)</h2>
+<time datetime="2026-11-12">12 November 2026</time>
+<div class="category"><h3>Added</h3><ul><li data-platforms="android"><strong>Snips of note blocks on Android</strong> — snip a block in a note, see its badge, reopen it, and review the saved snips with redaction thumbnails in the flashcards panel.<span class="chip">Android</span></li><li data-platforms="all"><strong>Vimeo and video icons in a card's source</strong> — cards and notes from Vimeo or imported videos show where they came from.</li></ul></div>
+<div class="category"><h3>Improved</h3><ul><li data-platforms="all"><strong>Redaction practice matches the web</strong> — the marks look and behave the same on every platform.</li><li data-platforms="macos ios"><strong>Toasts stay clear of the top bars</strong> — in the Library, Notes, Flashcards and Practice on Mac, iPad and iPhone.<span class="chip">macOS</span><span class="chip">iOS</span></li><li data-platforms="ios"><strong>Clearer onboarding hints</strong> — iPad Notes says Tap, and Arabic hints name the Return key in Arabic.<span class="chip">iOS</span></li></ul></div>
+<div class="category"><h3>Fixed</h3><ul><li data-platforms="all"><strong>Import after Delete all data</strong> — importing brings your web account back again.</li><li data-platforms="ios"><strong>Import on iPad</strong> — the intro's Import button now opens Settings → Import.<span class="chip">iOS</span></li><li data-platforms="all"><strong>Closing the editor in Practice</strong> — keeps a revealed redaction card on the rating screen.</li><li data-platforms="macos"><strong>Mac TestFlight build</strong> — no longer asks for a system exception that Apple rejected.<span class="chip">macOS</span></li></ul></div>
+<p class="empty" hidden>Bug fixes and improvements</p>
+</section>
+<section class="build" id="build-21">
+<h2>1.0 (21)</h2>
+<time datetime="2026-11-11">11 November 2026</time>
+<div class="category"><h3>Added</h3><ul><li data-platforms="windows android"><strong>Update notifications on Windows and Android</strong> — an update button appears when a new build is out; it shows what's new and installs the update in place. On Windows you choose Restart now or When I close the app, and SmarterHumans reopens on the new version by itself.<span class="chip">Windows</span><span class="chip">Android</span></li><li data-platforms="windows"><strong>Windows installs and updates through Velopack</strong> — later updates download only what changed, and the installer and app are signed, so Windows names SmarterHumans as the publisher.<span class="chip">Windows</span></li><li data-platforms="all"><strong>Redaction groups</strong> — group redactions, and numbering now starts at 1 on every platform.</li><li data-platforms="all"><strong>Import and Sync settings in a new design</strong> — on every platform.</li><li data-platforms="all"><strong>Web import introduction at launch</strong> — with "Don't show again".</li><li data-platforms="all"><strong>Get started guides for Notes and the Library</strong> — short clips in 11 languages.</li><li data-platforms="all"><strong>Auto summary setting</strong> — turn automatic summaries on or off in Settings → AI → General, and create a summary for any document with "Create summary".</li><li data-platforms="all"><strong>AI Settings in the AI Playground</strong> — choose the language of generated flashcards, or let the app detect it.</li><li data-platforms="macos ios"><strong>Installed version in Settings → What's New on Mac, iPhone and iPad</strong> — the same line Windows and Android show.<span class="chip">macOS</span><span class="chip">iOS</span></li></ul></div>
+<div class="category"><h3>Improved</h3><ul><li data-platforms="all"><strong>Runs on older devices</strong> — macOS 15, iOS 18, Android 11 and Windows 10 version 1809 (x64) are now supported.</li><li data-platforms="all"><strong>Large libraries and typing in Notes are faster</strong></li><li data-platforms="all"><strong>Text is easier to read in light and dark mode</strong> — placeholders, links, buttons and the selected segment meet WCAG AA contrast.</li><li data-platforms="all"><strong>Video and podcast transcripts work without your own Supadata key</strong></li><li data-platforms="all"><strong>A note needs a title</strong></li><li data-platforms="all"><strong>Tag sorting is consistent</strong> — "Created" reverses with the arrow, and each sort word means one thing.</li><li data-platforms="all"><strong>Practice settings reworked</strong></li><li data-platforms="all"><strong>Self-contained AI flashcard questions</strong> — generated questions no longer depend on the text they came from.</li><li data-platforms="all"><strong>Notes and concepts from a video stay separate</strong> — they are no longer collected into one master note.</li><li data-platforms="all"><strong>Older built-in PDF reader removed</strong></li></ul></div>
+<div class="category"><h3>Fixed</h3><ul><li data-platforms="macos"><strong>macOS no longer asks for the login-keychain password</strong><span class="chip">macOS</span></li><li data-platforms="all"><strong>Dictation no longer types "[BLANK_AUDIO]"</strong> — it follows your language, and falls back to Whisper when Apple has no speech assets.</li><li data-platforms="all"><strong>Web-imported cards reach your other devices with source, highlights and tags</strong> — (IDR-5329, IDR-5328)</li><li data-platforms="all"><strong>Web video cards get their transcript marker and Source seek</strong></li><li data-platforms="all"><strong>Summaries for imported videos</strong> — a video is summarized once its transcript has loaded.</li><li data-platforms="all"><strong>Web pages imported from a link render correctly</strong></li><li data-platforms="all"><strong>Snip flashcards use your own OpenRouter key when one is set</strong></li><li data-platforms="all"><strong>Concepts from a video or podcast no longer titled "page 0"</strong></li><li data-platforms="all"><strong>No surprise flashcard generation</strong> — returning to a video or podcast with the AI Playground open no longer starts generating by itself.</li><li data-platforms="all"><strong>The document is disabled while the AI Playground form is open</strong></li><li data-platforms="all"><strong>A restored card is no longer blanked by an empty editor</strong> — and **note links break words at punctuation**</li></ul></div>
+<p class="empty" hidden>Bug fixes and improvements</p>
+</section>
+<section class="build" id="build-20">
+<h2>1.0 (20)</h2>
+<time datetime="2026-11-02">2 November 2026</time>
+<p>First build listed here. Earlier builds were announced in the team channel.</p>
+</section>
+</main>
+<script>
+(function () {
+  var keys = ["all", "macos", "ios", "windows", "android"];
+  var buttons = document.querySelectorAll("button[data-platform]");
+  function show(platform) {
+    document.querySelectorAll("li[data-platforms]").forEach(function (li) {
+      var own = li.getAttribute("data-platforms").split(" ");
+      li.hidden = !(platform === "all" || own.indexOf("all") >= 0 || own.indexOf(platform) >= 0);
+    });
+    document.querySelectorAll(".category").forEach(function (group) {
+      group.hidden = !group.querySelector("li:not([hidden])");
+    });
+    document.querySelectorAll(".build").forEach(function (build) {
+      var empty = build.querySelector(".empty");
+      if (!empty) return;
+      empty.hidden = !!build.querySelector("li:not([hidden])");
+    });
+    buttons.forEach(function (b) { b.setAttribute("aria-pressed", String(b.getAttribute("data-platform") === platform)); });
+  }
+  var wanted = new URLSearchParams(location.search).get("platform");
+  var current = keys.indexOf(wanted) >= 0 ? wanted : "all";
+  buttons.forEach(function (b) {
+    b.addEventListener("click", function () {
+      current = b.getAttribute("data-platform");
+      var url = new URL(location.href);
+      if (current === "all") { url.searchParams.delete("platform"); } else { url.searchParams.set("platform", current); }
+      history.replaceState(null, "", url);
+      show(current);
+    });
+  });
+  show(current);
+})();
+</script>
+</body>
+</html>
