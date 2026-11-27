@@ -4,7 +4,7 @@ Download pages for the SmarterHumans study app. This repository holds only the i
 changelog and the update channel files; the source code is private.
 
 <!-- latest:begin -->
-**Latest test build: SmarterHumans 1.0 (24) (2026-11-22).** [Windows](https://github.com/SmarterHumans-ai/SmarterHumans-releases/releases/download/1.0.24/SmarterHumans-Setup-1.0.24-x64.exe) · [Android](https://github.com/SmarterHumans-ai/SmarterHumans-releases/releases/download/1.0.24/SmarterHumans-1.0.24.apk) · [Release notes](https://github.com/SmarterHumans-ai/SmarterHumans-releases/releases/tag/1.0.24)
+**Latest test build: SmarterHumans 1.0 (25) (2026-11-27).** [Windows](https://github.com/SmarterHumans-ai/SmarterHumans-releases/releases/download/1.0.25/SmarterHumans-Setup-1.0.25-x64.exe) · [Android](https://github.com/SmarterHumans-ai/SmarterHumans-releases/releases/download/1.0.25/SmarterHumans-1.0.25.apk) · [Release notes](https://github.com/SmarterHumans-ai/SmarterHumans-releases/releases/tag/1.0.25) · [What's new](https://changelog.smarterhumans.ai/)
 <!-- latest:end -->
 
 All builds: [Releases](https://github.com/SmarterHumans-ai/SmarterHumans-releases/releases) ·

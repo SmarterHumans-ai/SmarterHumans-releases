@@ -1,0 +1,193 @@
+{
+  "schema": 1,
+  "channel": "test",
+  "version": "1.0",
+  "build": 25,
+  "revision": 0,
+  "published": "2026-11-27T12:00:00Z",
+  "releasePage": "https://github.com/SmarterHumans-ai/SmarterHumans-releases/releases/tag/1.0.25",
+  "changelog": "https://changelog.smarterhumans.ai/",
+  "commit": "0db387dc23b6cc3267c66cf1acf882c5194a93e6",
+  "requiredBelowBuild": 0,
+  "notes": [
+    {
+      "category": "added",
+      "title": "Please run Import again",
+      "detail": "to apply the new scheduling to cards you imported earlier, open Settings → Import and press Import once, on any one of your devices."
+    },
+    {
+      "category": "added",
+      "title": "The Lab on Android",
+      "detail": "build boards from your sources, ask about them, quiz yourself and study with the tutor.",
+      "platforms": [
+        "android"
+      ]
+    },
+    {
+      "category": "added",
+      "title": "Chat Settings",
+      "detail": "choose the font and text size of the AI chat."
+    },
+    {
+      "category": "added",
+      "title": "Resize and move a snip",
+      "detail": "adjust a snip in a PDF after you have drawn it."
+    },
+    {
+      "category": "added",
+      "title": "What's New shows this build's changes",
+      "detail": "only the ones for your device, with a link to the full changelog."
+    },
+    {
+      "category": "improved",
+      "title": "Smarter practice scheduling",
+      "detail": "reviews are now planned more precisely, so cards stick better, and cards imported from the web app continue right where the web left off."
+    },
+    {
+      "category": "improved",
+      "title": "Web import brings more of your account",
+      "detail": "practice settings, Pomodoro sessions and note collections come over, and items in the web Trash arrive as Archived."
+    },
+    {
+      "category": "improved",
+      "title": "Library search finds what you expect",
+      "detail": "it stays in the view you picked, no longer hides documents with many matching pages, and drops a document as soon as you archive it."
+    },
+    {
+      "category": "improved",
+      "title": "Typing in Library search no longer lags",
+      "detail": "letters appear at once and the list stops flickering.",
+      "platforms": [
+        "macos"
+      ]
+    },
+    {
+      "category": "improved",
+      "title": "Select all covers search results",
+      "detail": "search results get their own checkboxes.",
+      "platforms": [
+        "windows",
+        "android"
+      ]
+    },
+    {
+      "category": "improved",
+      "title": "Notes Settings in a new layout",
+      "detail": "typography and layout side by side, with a reset for layout."
+    },
+    {
+      "category": "improved",
+      "title": "Your progress is easier to read",
+      "detail": "star ratings line up, Highest and Lowest rating show only their own stars, custom dates apply to Acquired knowledge, and dates and hours follow your device."
+    },
+    {
+      "category": "improved",
+      "title": "One sort order everywhere",
+      "detail": "untitled cards and notes always come last."
+    },
+    {
+      "category": "improved",
+      "title": "Colours match the design on every device",
+      "detail": "and the streak flame has a new icon."
+    },
+    {
+      "category": "improved",
+      "title": "Manage Tags opens at once after Select all"
+    },
+    {
+      "category": "improved",
+      "title": "The PDF reader remembers each document's zoom",
+      "platforms": [
+        "macos",
+        "ios"
+      ]
+    },
+    {
+      "category": "improved",
+      "title": "Chat Support finds the right guide more often"
+    },
+    {
+      "category": "fixed",
+      "title": "Drawing a snip no longer crashes the app",
+      "detail": "on some Macs, iPhones and iPads.",
+      "platforms": [
+        "macos",
+        "ios"
+      ]
+    },
+    {
+      "category": "fixed",
+      "title": "Reset all data clears everything",
+      "detail": "folders, audio and the streak flame are cleared too."
+    },
+    {
+      "category": "fixed",
+      "title": "Import counts each item once",
+      "detail": "and says \"All items imported\" when nothing is left."
+    },
+    {
+      "category": "fixed",
+      "title": "Archived documents keep their files"
+    },
+    {
+      "category": "fixed",
+      "title": "Imported highlights show View Source as a chip"
+    },
+    {
+      "category": "fixed",
+      "title": "The manual flashcard form stays open after Save",
+      "detail": "ready for the next card.",
+      "platforms": [
+        "ios",
+        "android"
+      ]
+    },
+    {
+      "category": "fixed",
+      "title": "Flashcard and note panels stay open when you reopen a document",
+      "platforms": [
+        "windows"
+      ]
+    },
+    {
+      "category": "fixed",
+      "title": "Add to collection shows one folder icon for every collection",
+      "platforms": [
+        "macos",
+        "ios",
+        "android"
+      ]
+    }
+  ],
+  "platforms": {
+    "windows-x64": {
+      "url": "https://github.com/SmarterHumans-ai/SmarterHumans-releases/releases/download/1.0.25/SmarterHumans-Setup-1.0.25-x64.exe",
+      "size": 360237120,
+      "sha256": "571208879392541e6b164215251c30464054d718b2e8134cab6ba0195e131f81",
+      "minOs": "10.0.17763"
+    },
+    "windows-x64-velopack": {
+      "url": "https://github.com/SmarterHumans-ai/SmarterHumans-releases/releases/download/1.0.25/SmarterHumansApp-1.25.0-full.nupkg",
+      "size": 359017396,
+      "sha256": "228360dbad2636ae0c9f4b65e58ded73dbbe5d80546e1e2b2a1dcdf20567a908",
+      "sha1": "bcf37e10c6f778a7ee74d8e05076c37c1292355d",
+      "minOs": "10.0.17763",
+      "packageId": "SmarterHumansApp",
+      "packageVersion": "1.25.0",
+      "delta": {
+        "url": "https://github.com/SmarterHumans-ai/SmarterHumans-releases/releases/download/1.0.25/SmarterHumansApp-1.25.0-delta.nupkg",
+        "size": 76083797,
+        "sha256": "db7c69f76f41afd3c7353b40ee26df0773296a21c1cb96f84c1170fd3b42d810",
+        "sha1": "4ef984cf9da79454e57424c357a2e4118b60fe94",
+        "baseVersion": "1.24.0"
+      }
+    },
+    "android": {
+      "url": "https://github.com/SmarterHumans-ai/SmarterHumans-releases/releases/download/1.0.25/SmarterHumans-1.0.25.apk",
+      "size": 861741306,
+      "sha256": "8ada82e3ca7ff5cf1489642b063915b84225d9782315b84818807e611ceeb2cb",
+      "minOs": "30",
+      "packageId": "com.smarterhumans.cards.swiftcore.debug"
+    }
+  }
+}
